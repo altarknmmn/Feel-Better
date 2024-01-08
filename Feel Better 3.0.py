@@ -11,7 +11,8 @@ from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import word_tokenize, sent_tokenize
 from sklearn.naive_bayes import MultinomialNB
 
-openai.api_key = ("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")
+# type your openai api key below
+openai.api_key = ("")
 # Reading the database from the internet
 url = "https://raw.githubusercontent.com/altarknmmn/Feel-Better/main/sentence.csv"
 res = urllib.request.urlopen(url)
